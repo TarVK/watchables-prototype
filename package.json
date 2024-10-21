@@ -1,0 +1,24 @@
+{
+    "name": "watchable-prototype",
+    "version": "0.0.0",
+    "description": "A prototype implementation of watchables",
+    "private": true,
+    "scripts": {
+        "test": "node --expose-gc ./node_modules/jest/bin/jest.js -i --verbose --config=\"jest.config.js\"",
+        "test-watch": "node --expose-gc ./node_modules/jest/bin/jest.js --watch -i --verbose --config=\"jest.config.js\"",
+        "test-watch-debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand --watch --config=\"jest.config.js\""
+    },
+    "keywords": [],
+    "author": "Tar van Krieken",
+    "license": "MIT",
+    "dependencies": {
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1"
+    },
+    "devDependencies": {
+        "@types/jest": "29.0.0",
+        "@types/react": "^17.0.0",
+        "@types/react-dom": "^17.0.0",
+        "typescript": "^5.4.5"
+    }
+}
